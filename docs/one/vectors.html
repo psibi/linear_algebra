@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title></title>
-<!-- 2022-01-01 Sat 21:54 -->
+<!-- 2022-01-01 Sat 23:42 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="Org-mode">
@@ -189,6 +189,32 @@ $(function() {
     $('.bs-docs-sidebar').affix();
 });
 </script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  displayAlign: "center",
+  displayIndent: "2em",
+  messageStyle: "none",
+  "HTML-CSS": {
+    scale: 100,
+    styles: {
+      ".MathJax_Display": {
+        "font-size": "100%"
+      }
+    }
+  },
+  "SVG": {
+    scale: 100,
+    styles: {
+      ".MathJax_SVG_Display": {
+        "font-size": "100%",
+        "margin-left": "-2.281em"
+      }
+    }
+  }
+});
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"></script>
 </head>
 <body>
 <div id="org-div-home-and-up">
@@ -199,51 +225,92 @@ $(function() {
 <div class="row"><div class="col-md-3 col-md-push-9"><nav id="table-of-contents">
 <div id="text-table-of-contents" class="bs-docs-sidebar">
 <ul class="nav">
-<li><a href="#sec-1">1. Linear Algebra</a></li>
-<li><a href="#sec-2">2. Chapter One</a>
+<li><a href="#sec-1">1. Vectors</a>
 <ul class="nav">
-<li><a href="#sec-2-1">2.1. References</a></li>
+<li><a href="#sec-1-1">1.1. Vector Addition</a></li>
+<li><a href="#sec-1-2">1.2. Scalar Multiplication</a></li>
+<li><a href="#sec-1-3">1.3. Zero Vector</a></li>
 </ul>
 </li>
+<li><a href="#sec-2">2. Linear combination</a></li>
 </ul>
 </div>
 </nav>
 </div><div class="col-md-9 col-md-pull-3"><h1 class="title"></h1>
 <div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> Linear Algebra</h2>
+<h2 id="sec-1"><span class="section-number-2">1</span> Vectors</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>"You can't add apples and oranges". In a strange way, this is the reason for vectors.
+</li>
+<li>We have two separate numbers \(v_1\) and \(v_2\). That pair produces a
+<b>two dimensional vector</b> \(v\)
+</li>
+</ul>
+
+<p>
+\(v = \begin{bmatrix} v_1 \\ v_2 \end{bmatrix}\)
+</p>
+</div>
+
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Vector Addition</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+\(v = \begin{bmatrix} v_1 \\ v_2 \end{bmatrix}\)
+</p>
+
+<p>
+\(w = \begin{bmatrix} w_1 \\ w_2 \end{bmatrix}\)
+</p>
+
+<p>
+\(v + w = \begin{bmatrix} v_1 + w_1 \\ v_2 + w_2 \end{bmatrix}\)
+</p>
+
+<p>
+Subtraction of vectors follow the same idea.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Scalar Multiplication</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+\(2v = \begin{bmatrix} 2v_1 \\ 2v_2 \end{bmatrix}\)
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Zero Vector</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+The sum of the vector \(-v\) and \(v\) is the zero vector. This is \(\mathbf{0}\)
+wich is not the same as number zero.
+</p>
+
+<p>
+The vector \(\mathbf{0}\) has two components \(0\) and \(0\).
+</p>
+</div>
+</div>
 </div>
 
 <div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> Chapter One</h2>
+<h2 id="sec-2"><span class="section-number-2">2</span> Linear combination</h2>
 <div class="outline-text-2" id="text-2">
-<ul class="org-ul">
-<li><a href="one/vectors.html">Vectors and Linear combinations</a>
-</li>
-</ul>
-
-
-<ul class="org-ul">
-<li><a href="lecture_one.html">Lecture one</a>
-</li>
-<li><a href="letcture_two.html">Lecture two</a>
-</li>
-</ul>
-</div>
-
-<div id="outline-container-sec-2-1" class="outline-3">
-<h3 id="sec-2-1"><span class="section-number-3">2.1</span> References</h3>
-<div class="outline-text-3" id="text-2-1">
-<ul class="org-ul">
-<li><a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/">MIT Linear Algebra course</a>
-</li>
-</ul>
-</div>
+<p>
+Combining addition with scalar multiplication, we form <b>"linear
+combinations"</b> of \(v\) and \(w\).
+</p>
 </div>
 </div>
 </div></div></div>
 <footer id="postamble" class="">
 <div><p class="author">Author: Sibi Prabakaran</p>
-<p class="date">Created: 2022-01-01 Sat 21:54</p>
+<p class="date">Created: 2022-01-01 Sat 23:42</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 27.2 (<a href="http://orgmode.org">Org-mode</a> 9.4.4)</p>
 </div>
 </footer>

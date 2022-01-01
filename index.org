@@ -1,6 +1,9 @@
 * Linear Algebra
 
-** Lectures
+* Chapter One
+
+- [[file:one/vectors.org][Vectors and Linear combinations]]
+
 
 - [[file:lecture_one.org][Lecture one]]
 - [[file:letcture_two.org][Lecture two]]

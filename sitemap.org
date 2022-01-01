@@ -1,5 +1,8 @@
 #+TITLE: Sitemap for project linear_algebra
 
+- [[file:README.org][README]]
 - [[file:index.org][index]]
 - [[file:lecture_one.org][lecture_one]]
 - [[file:letcture_two.org][letcture_two]]
+- one
+  - [[file:one/vectors.org][vectors]]
