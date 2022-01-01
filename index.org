@@ -1,0 +1,10 @@
+* Linear Algebra
+
+** Lectures
+
+- [[file:lecture_one.org][Lecture one]]
+- [[file:letcture_two.org][Lecture two]]
+
+** References
+
+- [[https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/][MIT Linear Algebra course]]
