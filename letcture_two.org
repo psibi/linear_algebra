@@ -1,0 +1,8 @@
+* Pre-requisites
+
+- [[https://www.mathsisfun.com/algebra/matrix-inverse.html][Invertible matrix: mathisfun]]
+  - [[https://en.wikipedia.org/wiki/Invertible_matrix][Wikipedia]]
+
+- [[https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/][Gilbert Strange page]]
+- [[file:docs/letcure_one_notes.pdf][Notes by Gilbert Strang]]
+- A good way to think about multiplication is thinking about the "L" shape.
