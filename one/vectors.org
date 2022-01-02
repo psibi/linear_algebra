@@ -31,3 +31,36 @@ The vector $\mathbf{0}$ has two components $0$ and $0$.
 
 Combining addition with scalar multiplication, we form *"linear
 combinations"* of $v$ and $w$.
+
+The sum of $cv$ and $dw$ is a linear combination of $v$ and $w$.
+
+** Geometrical Interpretation (2D vectors)
+
+- Vector addition produces the diagonal of a prallelogram.
+  - [[https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:vectors/x9e81a4f98389efdf:vector-add-sub/v/parallelogram-rule-for-vector-addition][Additional Reference]]
+- A vector with two components corresponds to a point in the $xy$
+  plane.
+- The components of $v$ are the coordinates orf the point $x = v_1$
+  and $y = v_2$. The arrow ends at this point $(v_1, v_2)$ when it
+  starts from $(0,0)$.
+
+** Geometrical Interpretation (3D vectors)
+
+- The vector $v$ corresponds to an arrow in 3-space. Usually the arrow
+  starts at the *origin* where the $xyz$ axes meet and the coordinates
+  are $(0,0,0)$.
+
+** All combinations
+
+Assuming every $c$, $d$ and $e$ are allowed:
+
+- The combinations $cu$ fill a *line*.
+- The combinations $cu + dv$ fill a *plane*.
+- The combinations $cu + dv + ew$ fill *three-dimensional space*
+
+* Miscellaneous
+
+- Vectors $\begin{bmatrix} x \\ y \end{bmatrix}$ and $\begin{bmatrix} x
+\\ y \\ z \end{bmatrix}$ can also be written as $(x,y)$ and
+$(x,y,z)$. Note that they are not a row vector. Row vector are
+represented as $[x, y]$ instead.
