@@ -60,7 +60,6 @@ Assuming every $c$, $d$ and $e$ are allowed:
 
 * Miscellaneous
 
-- Vectors $\begin{bmatrix} x \\ y \end{bmatrix}$ and $\begin{bmatrix} x
-\\ y \\ z \end{bmatrix}$ can also be written as $(x,y)$ and
+- Vectors $\begin{bmatrix} x \\ y \end{bmatrix}$ and $\begin{bmatrix} x \\ y \\ z \end{bmatrix}$ can also be written as $(x,y)$ and
 $(x,y,z)$. Note that they are not a row vector. Row vector are
 represented as $[x, y]$ instead.
