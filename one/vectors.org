@@ -52,7 +52,11 @@ The sum of $cv$ and $dw$ is a linear combination of $v$ and $w$.
 
 ** All combinations
 
-Assuming every $c$, $d$ and $e$ are allowed:
+Suppose the vectors $u$, $v$ and $w$ are in three dimensional space
+and they are non zero:
+
+Assuming every $c$, $d$ and $e$ are allowed and they are non zero
+:
 
 - The combinations $cu$ fill a *line*.
 - The combinations $cu + dv$ fill a *plane*.
